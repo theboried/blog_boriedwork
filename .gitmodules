@@ -1,0 +1,3 @@
+[submodule "themes/traquilpeak"]
+	path = themes/traquilpeak
+	url = https://github.com/kakawait/hugo-tranquilpeak-theme
