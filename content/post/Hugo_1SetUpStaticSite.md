@@ -369,6 +369,7 @@ Ora segui la procedura di configurazione descritta dall'autore del tema sulla pa
 
 ### 4. TEST
 Ora che abbiamo installato sito e tema non ci resta che controllare il risultato. Per farlo usa il comando dalla cartella del sito:
+
 > hugo server -D
 
     Started building sites ...
