@@ -19,16 +19,15 @@ keywords:
 ---
 
 <!--more-->
-# HUGO - 1. Generare un sito statico
 ## Eseguire il setup di un sito statico (e qualche nozione preliminare)
 
-Se aprendo questio mio blog, sei stato in qualche modo colpito (magari un amico burlone è passato per il 'coppino' di rituale proprio in quel momento), o se hai pensato "cavolo, bello! Ma chissà quanto tempo c'avrà messo a sviluppare un sito del genere", ho una buona notizia per te, caro lettore: la risposta è un paio d'ore.
+Se aprendo questo mio blog, sei stato in qualche modo colpito (magari un amico burlone è passato per il 'coppino' di rituale proprio in quel momento), o se hai pensato "cavolo, bello! Ma chissà quanto tempo c'avrà messo a sviluppare un sito del genere", ho una buona notizia per te caro lettore: la risposta è un paio d'ore.
 
-![star eyes](https://goo.gl/images/7fSBmn "Start eyes")
+![star eyes](https://i.ytimg.com/vi/YVTXdhTd4VM/maxresdefault.jpg "Start eyes")
 
 
 Bada bene, un paio d'ore perché non sono pratico con **git** né con la piattaforma **github** che mi sono ripromesso di approffondire.
-Non voglio correre troppo (non facciamo spoiler), ma in locale avevo già un'anteprima del sito fatto e finito dopo 20 minuti di lavoro.
+Non voglio correre troppo, ma in locale avevo già un'anteprima del sito fatto e finito dopo 20 minuti di lavoro.
 
 Vuoi sapere come ho fatto? Presto detto...
 
@@ -67,14 +66,14 @@ Vogliamo cominciare? Allora, avvia il cronometro che ora ci diamo dentro.
 
 Innanzitutto, precisiamo che la mia guida si baserà su **HUGO** un generatore scritto in **GO**. 
 
-![HugoNotUgo](https://goo.gl/images/AUT24d "HugoNotUgo")
+![HugoNotUgo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcb2KAMziebDCADblAZuVlZcspvof2IbbezYpQqMACq4GbP-yE "HugoNotUgo")
 ##### HUGO, non Ugo!
 
 
 ### 1. INSTALLAZIONE HUGO
 
 
-Vai sulla pagina ufficiale di installazione di **GOHUGO**: https://gohugo.io/getting-started/installing
+Vai sulla pagina ufficiale d'installazione di **GOHUGO**: https://gohugo.io/getting-started/installing
 e segui a menadito la procedura d'installazione per il tuo sistema operativo. Almeno che tu non sia su Linux basato su Debian, in questo caso (per esperienza personale) ti consiglierei di scaricarti e di installarti direttamente il deb della versione desiderata di Hugo da qui https://github.com/gohugoio/hugo/releases.
 Scusa, non ti volevo spaventare, ma a quanto pare con **apt** (almeno, per ora) viene scaricata una versione di Hugo abbastanza vecchiotta, che mi ha fatto dannare per il tema che volevo utilizzare.
 
@@ -137,12 +136,14 @@ Qui non mi dilungherò. Solo la nota che per l'esempio ho usato la ~ che sta per
 
 La parte più piacevole e difficoltosa allo stesso tempo. Possiamo paragornare questa esperienza alla scelta del nickname del nostro personaggio ad un nuovo RPG. 
 
-Da questa lista che ti link https://themes.gohugo.io/, qui trovi tutti i temi che sono compatibili con **hugo**, scegli quello che più si addice a te e a quello che vuoi farne del tuo sito, tenendo conto che nella maggior parte dei casi colori e immagini sono customizzabili.
+Da questa lista che ti linko https://themes.gohugo.io/, trovi tutti i temi che sono compatibili con **hugo**, scegli quello che più si addice a te e a quello che vuoi farne del tuo sito, tenendo conto che nella maggior parte dei casi colori e immagini sono customizzabili.
 
 Ora, apri la repository del tema, clonalo nella cartella del sito creato nel punto 2, con:
 > git clone https://github.com/kakawait/hugo-tranquilpeak-theme themes/traquilpeak 
 
-(Questo è quello che ho usato io). Ora segui la procedura di configurazione descritta dall'autore del tema sulla pagina di github, che ti illustrerà come aggiornare il tuo file **config.toml** per poter usare il nuovo tema. Se ti potesse essere d'aiuto di lascio la mia configurazione per il tema https://github.com/kakawait/hugo-tranquilpeak-theme
+(Questo è quello che ho usato io). 
+
+Ora segui la procedura di configurazione descritta dall'autore del tema sulla pagina di github, che ti illustrerà come aggiornare il tuo file **config.toml** per poter usare il nuovo tema. Se ti potesse essere d'aiuto di lascio la mia configurazione per il tema https://github.com/kakawait/hugo-tranquilpeak-theme
 
 >
     baseurl = "http://blog.boriedwork.space/"
