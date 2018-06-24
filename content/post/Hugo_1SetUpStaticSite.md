@@ -35,6 +35,8 @@ Vuoi sapere come ho fatto? Presto detto...
 
 Intanto partirei con una piccola definizione di 
 
+<br />
+
 ### SITO STATICO:
 
     Il Web statico è un paradigma di progettazione e pubblicazione web caratterizzata, dal punto di vista comunicativo, in un'interazione sostanzialmente unilaterale: l'utente può visualizzare i contenuti forniti dall'autore di un sito, ma non può modificare lo stato né le informazioni. Da un punto di vista tecnico i contenuti, siano essi testuali, strutturati e formattati in documenti e fogli di stile, principalmente utilizzando nell'ordine i formati di marcatura HTML e CSS, o audiovisivi, sono memorizzati dal server e non vengono manipolati né da quel lato, prima della trasmissione al browser, né dall'altro, al momento della loro visualizzazione o riproduzione per l'utente. 
@@ -52,6 +54,8 @@ Quindi applicazioni per cui si vuole mostrare qualcosa ad una persona senza che 
 
 Detto ciò, c'è da precisare il fatto che non siamo più nel Medioevo, in cui gli scribacchini si mettevano a copiare e incollare codice HTML su ogni singola pagina del proprio sito; ma siamo nel 2018 (ma guarda un po'!) e al giorno d'oggi esistono software che in un quattro e quattr'otto **generano** il nostro sito statico.
 
+<br />
+
 ### GENERATORE DI SITO STATICO
 Un generatore di siti statici è sostanzialmente un wrapper che dati in pasto una serie di cartelle e file, genera per l'appunto il sito. 
 
@@ -68,7 +72,7 @@ Innanzitutto, precisiamo che la mia guida si baserà su **HUGO** un generatore s
 
 ![HugoNotUgo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcb2KAMziebDCADblAZuVlZcspvof2IbbezYpQqMACq4GbP-yE "HugoNotUgo")
 ##### HUGO, non Ugo!
-
+<br /> 
 
 ### 1. INSTALLAZIONE HUGO
 
@@ -97,13 +101,14 @@ Quando hai finito, per essere sicuro di aver completato correttamente la procedu
 > hugo version
 
     Hugo Static Site Generator v0.25.1 linux/amd64 BuildDate: 2017-07-10T08:58:07+02:00
+<br />
 
 ### 2. CREAZIONE DEL SITO
 
 Qui non mi dilungherò. Solo la nota che per l'esempio ho usato la ~ che sta per la directory di HOME. 
 
-1. Crea la cartella del sito con il comando di HUGO 
-    > hugo new site ~/mySite
+1. Crea la cartella del sito con il comando di HUGO<br />
+    > hugo new site ~/mySite<br />
     >
         Congratulations! Your new Hugo site is created in /tmp/mySite.
 
@@ -117,8 +122,8 @@ Qui non mi dilungherò. Solo la nota che per l'esempio ho usato la ~ che sta per
         3. Start the built-in live server via "hugo server".
 
         Visit https://gohugo.io/ for quickstart guide and full documentation.
-1.  Posizionati nella cartella
-    > cd ~/mySite && ll
+1.  Posizionati nella cartella<br />
+    > cd ~/mySite && ll<br />
     >
         total 64
         drwxr-xr-x  8 boried boried  4096 Jun 23 22:21 ./
@@ -131,6 +136,8 @@ Qui non mi dilungherò. Solo la nota che per l'esempio ho usato la ~ che sta per
         drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 static/
         drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 themes/
 1. Non c'è nessun punto 3. Abbiamo fatto; non ci resta che installare il tema.
+
+<br />
 
 ### 3. INSTALLAZIONE E CONFIGURAZIONE DEL TEMA
 
