@@ -107,34 +107,46 @@ Quando hai finito, per essere sicuro di aver completato correttamente la procedu
 
 Qui non mi dilungherò. Solo la nota che per l'esempio ho usato la ~ che sta per la directory di HOME. 
 
+<br />
+
 1. Crea la cartella del sito con il comando di HUGO<br />
-> hugo new site ~/mySite<br />
->
-        Congratulations! Your new Hugo site is created in /tmp/mySite.
 
-        Just a few more steps and you're ready to go:
+    > hugo new site ~/mySite<br />
 
-        1. Download a theme into the same-named folder.
-        Choose a theme from https://themes.gohugo.io/, or
-        create your own with the "hugo new theme <THEMENAME>" command.
-        2. Perhaps you want to add some content. You can add single files
-        with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
-        3. Start the built-in live server via "hugo server".
+    >
+            Congratulations! Your new Hugo site is created in /tmp/mySite.
+            Just a few more steps and you're ready to go:
+            1. Download a theme into the same-named folder.
+            Choose a theme from https://themes.gohugo.io/, or
+            create your own with the "hugo new theme <THEMENAME>" command.
+            2. Perhaps you want to add some content. You can add single files
+            with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+            3. Start the built-in live server via "hugo server".
+            
+            Visit https://gohugo.io/ for quickstart guide and full documentation.
 
-        Visit https://gohugo.io/ for quickstart guide and full documentation.
+    <br />
+
 2.  Posizionati nella cartella<br />
-> cd ~/mySite && ll<br />
->
-        total 64
-        drwxr-xr-x  8 boried boried  4096 Jun 23 22:21 ./
-        drwxrwxrwt 25 root     root     28672 Jun 23 22:21 ../
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 archetypes/
-        -rw-r--r--  1 boried boried    82 Jun 23 22:21 config.toml
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 content/
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 data/
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 layouts/
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 static/
-        drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 themes/
+
+
+    > cd ~/mySite && ll<br />
+
+
+    >
+            total 64
+            drwxr-xr-x  8 boried boried  4096 Jun 23 22:21 ./
+            drwxrwxrwt 25 root     root     28672 Jun 23 22:21 ../
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 archetypes/
+            -rw-r--r--  1 boried boried    82 Jun 23 22:21 config.toml
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 content/
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 data/
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 layouts/
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 static/
+            drwxr-xr-x  2 boried boried  4096 Jun 23 22:21 themes/
+
+    <br />
+
 3. Non c'è nessun punto 3. Abbiamo fatto; non ci resta che installare il tema.
 
 <br />
